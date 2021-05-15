@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF -8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <title>
     Google Demo
@@ -10,16 +11,44 @@
 <header>
     <!--navbar w/no links-->
     <div class="navbar">
-        <ul>
-            <li><a href="about.html"</li>
+        <div class="links-left">
+        <ul> 
+            <li><a href="about.html">About</a></li>
+            <li><a href="store.html">Store</a></li>
+        </div>
+        <div class="links-right">
+            <li><a href="gmail.html">Gmail</a></li>
+            <li><a href="Images"></a></li>
+            <li><img id="apps_black" src="/google-homepage/images/apps_black.svg"></li>
+            <li><button type="button">Sign In</button></li>
         </ul>
+        </div>
     </div>
 
 </header>
 <body>
-<img src="/google-homepage/googleLogo.png">
 
+    <div>
+        <img src="/google-homepage/images/googleLogo.png" class="center">
+        <p><img src="/google-homepage/images/search_black.svg">
+            <input type="text"><img src="/google-homepage/images/mic_black.svg"></p>
+    </div>
 </body>
-
+<footer>
+    <div class="bottom-nav">
+        <ul>
+            <div class="links-left">
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search works</li>
+            </div>
+            <div class="links-right">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </div>
+        </ul>
+    </div>
+</footer>
 
 </html>
