@@ -32,20 +32,42 @@ li {
 }
 
 /* body */
-.center {
-    display: block;
-    padding-top: 25%;
-    margin-left: auto;
-    margin-right: auto;  
+.logo {
+    padding-top: 10%;
+    padding-bottom: 3%;
 }
-p {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px 10px;
-    width: 50%;
+.searchBox {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.searchBox p {
+    margin: 0 auto;
+    width: 45%;
     border: solid rgb(153, 153, 153) 1px;
     border-radius: 20px;
+}
+p input {
+    width: 80%;
+    border:none;
+    padding-top: 10px;
+}
+
+/* Search Buttons */
+.searchButtons {
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    width: 50%;
+}
+.searchButtons button {
+    background: linear-gradient(rgba(241, 241, 241, 0.932),rgba(241, 241, 241, 0.849));
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin: 0 10px;
 }
 
 /* footer */
